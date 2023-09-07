@@ -9,6 +9,10 @@ const printToTen = () => {
 
 const addUs = (num1, num2) => console.log(num1 + num2);
 
+console.log(multiplyByTen(6));
+console.log(printToTen());
+console.log(addUs(10, 6));
+
 // Original Code
 // const multiplyByTen = (num) => {
 // 	return 10 * num;
