@@ -27,9 +27,6 @@ if (secondNumber === 0) {
 } else if (isNaN(firstNumber) || isNaN(secondNumber)) {
   alert("At least one of the values you typed is not a number. Reload and try again.");
 } else {
-
-}
-
 message += `${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}`;
 message += "<br>";
 message += `${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}`;
@@ -39,3 +36,5 @@ message += "<br>";
 message += `${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`;
 message += "<br>";
 document.write(message);
+}
+
