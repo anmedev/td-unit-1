@@ -6,11 +6,12 @@
 
 // 4. Create a third variable and which combines an uppercase version values in the two other variables separated by a space. For example, if the first two variables contain "sally" and "forth", this third variable should contain the string value "SALLY FORTH"
 
-// 5. Create a fourth variable to store a number. The number should be the total number of characters in the third variable. 
+// 5. Create a fourth variable to store a number. The number should be the total number of characters in the third variable.
 
 // 6. Add an alert dialog box that says "The string '[insert value of third variable here]' is X number of characters long." For example, if the third variable contained the string "SALLY FORTH" then the alert dialog should says "The string 'SALLY FORTH' is 11 characters long."
 
 const firstName = prompt("What is your first name?");
-const LastName = prompt("What is your last name?");
-const upperCaseNames = `${firstName.toUpperCase()} ${LastName.toUpperCase()}`;
-const message = alert(`The string ${upperCaseNames} is ${upperCaseNames.length} characters long`);
+const lastName = prompt("What is your last name?");
+const upperCaseNames = `${firstName.toUpperCase()} ${lastName.toUpperCase()}`;
+const numOfChars = upperCaseNames.length;
+const message = alert(`The string ${upperCaseNames} is ${numOfChars} characters long!`);
