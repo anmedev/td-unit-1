@@ -1,4 +1,4 @@
-// Conversions
+// Converted Solution
 const addToTen = num => 10 + num;
 
 const divideUs = (num1, num2) => num1 / num2;
@@ -11,8 +11,6 @@ const printMyName = () => {
 console.log(addToTen(6));
 console.log(divideUs(16, 4));
 console.log(printMyName());
-
-
 
 // Original Code
 // function addToTen(num) {
